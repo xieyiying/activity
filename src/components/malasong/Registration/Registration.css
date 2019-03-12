@@ -1,0 +1,120 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+input[type=button],
+input[type=text],
+input[type=password],
+input[type=submit] {
+  -webkit-appearance: none;
+  outline: none
+}
+  .wait {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
+    top: 50%;
+    margin-top: -50px;
+  }
+.Registration{
+  background: #fff;
+  min-height: 100%;
+}
+.Registration_top{
+   background: #fff;
+   width: 90%;
+   margin: 0 auto;
+   box-shadow: 0 0 10px #d0dce8;
+   border-radius: 10px;
+   text-align: left;
+   position: relative;
+   top: 10px;
+}
+.Registration_name {
+   color: #000;
+   font-weight: bold;
+   font-size: 20px;
+   margin: 0 10px;
+   padding-top: 10;
+}
+.Registration_time{
+  margin: 5px 10px;
+  padding-bottom: 5px;
+  position: relative;
+  font-size: 15px;
+  height: 17px;
+  line-height: 17px;
+}
+.Registration_img{
+    width: 15px;
+    height: 15px;
+}
+.Registration_text{
+  position: absolute;
+  left: 30px;
+  color: #666666;
+}
+.Registration_fee{
+   position: absolute;
+   right: 10px;
+   color: #000;
+}
+.Participants{
+    width: 47%;
+    margin: 40px auto;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ff0000;
+    border-radius: 40px;
+    color: #ff0000;
+    font-size: 17px;
+}
+.Registration_list{
+   list-style: none;
+   display: flex;
+   height: 60px;
+   line-height: 60px;
+   border-top: 1px solid #f2f2f2;
+   font-size: 14px;
+   width: 90%;
+   margin: 0 auto;
+}
+.Registration_image{
+  width: 15px;
+  height: 15px;
+  margin-top: 23px;
+  margin-left: 10px;
+}
+.list_info_name{
+   width: 55px;
+   text-align: left;
+   padding-left: 10px;
+}
+.list_info{
+    margin: 0 5;
+}
+.Registration_button {
+    height: 57.5px;
+    background: #fff;
+    bottom: 0px;
+    margin-top: 20px;
+}
+.Registration_click_button {
+     width: 345px;
+     height: 45px;
+     background-color: #e02525;
+     color: #fff;
+     line-height: 45px;
+     border-radius: 5px;
+     margin: 0px auto; 
+}
+.gobackIcon {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  z-index: 10;
+  width: 30px !important;
+  height: 30px;
+}

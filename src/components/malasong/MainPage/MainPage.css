@@ -1,0 +1,63 @@
+.Mainpage_style{
+ width: 100%;
+ position: relative;
+ margin-bottom: 10px;
+}
+.MainPage_list{
+width: 100%;
+}
+.eventListName{
+  position: absolute;
+  bottom: 30px;
+  color: #fff;
+  left: 10;
+}
+.eventListTime{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+}
+.MainPage_bottom{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color:#333333;
+  opacity: 0.8;
+  height:65px;
+}
+.list-item-Statustime {
+  bottom: 10px;
+  position: absolute;
+  background-color: #ff0000;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  right: 10px;
+}
+.list-item-Statustime-black {
+  bottom: 10px;
+  position: absolute;
+  background-color: #000000;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  right: 10px;
+}
+

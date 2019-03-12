@@ -1,0 +1,259 @@
+
+p {
+    margin: 0;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .top{
+    height: 3rem;
+    background: #fff;
+    position: relative;
+    width: 100%;
+  }
+  .top_left {
+    height: 3rem;
+    line-height: 3rem;
+    float: left;
+  }
+  
+  .top_logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 15px;
+    top: 17%;
+  }
+  
+  .top_paopao {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 0.8rem;
+    padding-left: 25px;
+  }
+  
+  .top_text {
+    float: right;
+  }
+  
+  .top_running {
+    position: absolute;
+    bottom: 40px;
+    color: #666666;
+    left: 55px;
+    font-size: 0.7rem;
+    top: 1%;
+  }
+  
+  .top_right {
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2dc9d7;
+    margin-left: 1px;
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    border-radius: 3px;
+    right: 15px;
+    font-size: 0.8rem;
+  }
+  /* .review_content{
+      height: 30rem;
+  } */
+  .user_info{
+    width: 38%;
+    height: 2.5rem;
+    margin-left: 1rem;
+    position: absolute;
+    top: 4rem;
+    background-image: url(./live_image/user_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  .user_img{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: -0.2rem;
+    background: #000;
+    left: -0.5rem;
+    border-radius: 50%;
+
+  }
+  .user_nick{
+    color: #fff;
+    font-size: 0.9rem;
+    padding-top: 0.1rem;
+    float: left;
+    padding-left: 3.3rem;
+
+  
+  }
+  .user_id{
+    margin-left: 3.2rem;
+    color: #fff;
+    font-size: 0.7rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    float: left;
+}
+.list_detail{
+  width: 50%;
+  float: left;
+  height: 14rem;
+}
+.live_video{
+  width: 100%;
+  height: 82%;
+  
+}
+.chat{
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  height: 9.3rem;
+  width: 90%;
+  overflow: auto;
+}
+.list_name{
+  color: #2dc9d7;
+  font-size: 1.2rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  float: left;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+}
+.chat_info{
+   color: #fff;
+   font-size: 1.0rem;
+   height: 1.5rem;
+   line-height: 1.5rem;
+   float: left;
+   margin-top: 0.4rem;
+   margin-left: 0.3rem;
+
+}
+.chat_list{
+  width: 100%;
+  height: 1.9rem;
+  line-height: 1.9rem;
+}
+.recommendation{
+      color: #999999;
+      font-size: 0.95rem;
+
+}
+.recommendation_info{
+  border-top-color: rgb(223, 222, 222);
+  border-top-style: solid;
+  border-top-width: 0.5px;
+  border-right-color: rgb(223, 222, 222);
+  border-right-style: solid;
+  border-right-width: 0.5px;
+  height: 100%;
+}
+.recommendation_user{
+  background: #000;
+  opacity: 0.3;
+  height: 2.3rem;
+}
+.recommendation_img{
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  margin-top: 0.2rem;
+
+}
+.recommendation_nick{
+      color: #fff;
+      font-size: 0.8rem;
+      padding-top: 0.2rem;
+      float: left;
+      padding-left: 0.8rem;
+      padding-bottom: 0.1rem;
+}
+.recommendation_id {
+  color: #fff;
+  width: 65%;
+  font-size: 0.70rem;
+  padding-top: 0.2rem;
+
+
+}
+.recommendation_picture
+{
+  width: 100%;
+  height: 85%;
+
+}
+.bottom {
+  height: 5rem;
+  background: #fff;
+  width: 100%;
+  bottom: auto;
+}
+  
+.bottom_left {
+  height: 5rem;
+  line-height: 5rem;
+  float: left;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 15px;
+  top: 12%;
+}
+
+.bottom_paopao {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-top: 0.8rem;
+  padding-left: 25px;
+}
+
+.bottom_text {
+  float: right;
+}
+.bottom_running {
+ position: relative;
+ color: #000;
+ font-size: 0.7rem;
+ margin-left: -4.2rem;
+ float: right;
+ margin-top: 1.2rem;
+}
+.bottom_right {
+     width: 70px;
+     height: 28px;
+     line-height: 28px;
+     text-align: center;
+     color: #FFFFFF;
+     background: #2dc9d7;
+     margin-left: 1px;
+     display: inline-block;
+     border-radius: 3px;
+     font-size: 0.8rem;
+     margin-right: 15px;
+     margin-top: 30px;
+
+}

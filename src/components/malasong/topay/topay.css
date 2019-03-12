@@ -1,0 +1,162 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+.topay {
+  background: #fff;
+   min-height: 100%;
+}
+  .wait {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
+    top: 50%;
+    margin-top: -50px;
+        z-index: 10;
+  }
+.topay_top {
+   background: #fff;
+   width: 90%;
+   margin: 0 auto;
+   box-shadow: 0 0 10px #d0dce8;
+   border-radius: 10px;
+   text-align: left;
+   height: 110px;
+     position: relative;
+     top: 20px;
+}
+.topay_top_detail {
+  box-shadow: 0 0 0;
+  background: #f2f2f2;
+  border-radius: 0;
+  width: 90%;
+  margin: 10px auto;
+  height: 100px;
+  color: #666666;
+}
+.topay_name {
+ color: #000;
+ font-weight: bold;
+ font-size: 20px;
+ margin: 0 10px;
+ padding-top: 10;
+}
+
+.topay_time {
+  margin: 5px 10px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.topay_img {
+  width: 20px;
+  height: 20px;
+}
+
+.topay_text {
+  position: absolute;
+  left: 30px;
+  color: #999999;
+}
+
+.topay_fee {
+  position: absolute;
+  right: -5px;
+  color: #000;
+  background: #f2f2f2;
+  font-size: 10px;
+  width: 80px;
+  height: 23px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.Participants {
+  width: 47%;
+  margin: 40px auto;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ff0000;
+  border-radius: 40px;
+  color: #ff0000;
+  font-size: 17px;
+}
+.topay_info_left {
+    float: left;
+    text-align: left;
+    padding-left: 20px;
+}
+.topay_info_right {
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+}
+.topay_info_style {
+   height: 33.33px;
+   line-height: 33.33px;
+}
+.topay_fee_detail {
+    display: flex;
+    height: 50px;
+   line-height: 50px;
+   position: relative;
+   width: 90%;
+   margin: 0 auto;
+}
+.fee_detail_weix {
+  display: flex;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+  line-height: 25px;
+}
+.enroll_number{
+    position: absolute;
+    right: 10px;
+}
+.select_button{
+   width: 345px;
+   height: 50px;
+   font-size: 20px;
+   background: #e02525;
+   color: #fff;
+   border: 0;
+   border-radius: 5px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 8px;
+}
+.topay_style {
+ background: #f2f2f2;
+ margin-top: 10px;
+ width: 90%;
+ margin: 10px auto;
+ color: #666666;
+  position: relative;
+    
+}
+.weixinpay{
+      width: 25px;
+      height: 25px;
+}
+.checkimg{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 5px;
+}
+.gobackIcon {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  z-index: 10;
+  width: 30px !important;
+  height: 30px;
+}

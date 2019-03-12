@@ -1,0 +1,137 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+  .wait {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
+    top: 50%;
+    margin-top: -50px;
+  }
+li {
+  list-style: none;
+}
+.userinfo {
+  width: 100%;
+  background-color: #eeeeee;
+  min-height: 100%;
+}
+.userinfo_top{
+  background: #fff;
+  position: relative;
+  top: 10px;
+  width: 95%;
+  left: 2.5%;
+  border-radius: 8px;
+}
+.mine_info{
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.userInfoitem {
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  height:50px;
+  display: flex;
+  align-items: center;
+      border-bottom: 0.5px solid #e8e8e8;
+}
+
+.userInfoimage {
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  height:60px;
+  display: flex;
+  align-items: center;
+}
+
+.userInfotext {
+  font-size: 14px;
+  margin-left: 15px;
+  color: #999999;
+}
+
+.userInfovalue {
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  font-size: 13px;
+  color: #999999;
+  left: 120px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #ededed;
+}
+
+.imagelist {
+  align-items: center;
+  display: flex;
+  position: absolute;
+left: 20px;
+top: 10px;
+width:50px;
+height: 50px;
+}
+.Logistics{
+  position: relative;
+  top: 30px;
+  background: #fff;
+  width: 95%;
+  left: 2.5%;
+  border-radius: 8px;
+}
+.Logistics_information{
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.Logistics_company{
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 8px;
+  border-bottom: 1px solid #e4e4e4;
+  height: 30px;
+  color: #888888;
+}
+.Logistics_number{
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 8px;
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid #e4e4e4;
+  height: 30px;
+  color: #888888;
+}
+.upfile{
+      position: relative;
+      top: 60px;
+      height: 40px;
+      line-height: 40px;
+      width: 95%;
+      left: 2.5%;
+      background: #db2424;
+      color: #fff;
+      border-radius: 5px;
+      margin-bottom: 15px;
+}
+.gobackIcon {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  z-index: 10;
+  width: 30px !important;
+  height: 30px;
+}

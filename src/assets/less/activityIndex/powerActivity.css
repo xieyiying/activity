@@ -1,0 +1,562 @@
+.activity_container {
+  width: 100%;
+  max-width: 750px;
+}
+.activity_container .activity_top {
+  height: 6.75rem;
+  background: url('../../powerActivity/top@2x.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  text-align: center;
+}
+.activity_container .activity_top .help_text {
+  font-size: 0.3rem;
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+  top: 2.4rem;
+  left: 2.59rem;
+}
+.activity_container .activity_top .user_info {
+  width: 3rem;
+  position: absolute;
+  top: 3.86rem;
+  left: 50%;
+  margin-left: -1.5rem;
+}
+.activity_container .activity_top .user_info img {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+}
+.activity_container .activity_top .user_info .user_name {
+  font-size: 0.3rem;
+  color: #333333;
+  margin-top: 0.16rem;
+}
+.activity_container .activity_top .help_button {
+  position: absolute;
+  top: 5.1rem;
+  left: 0.55rem;
+}
+.activity_container .activity_top .help_button button {
+  width: 3rem;
+  height: 0.8rem;
+  border: 0.02rem solid #DF2526;
+  text-align: center;
+  line-height: 0.8rem;
+  color: #DF2526;
+  font-size: 0.32rem;
+  border-radius: 0.4rem;
+  background-color: #ffffff;
+}
+.activity_container .activity_top .help_button button:first-child {
+  margin-right: 0.15rem;
+}
+.activity_container .activity_top .help_button button:first-child.enter_immediate {
+  background-color: #DE1616;
+  color: #fff;
+}
+.activity_container .activity_top .top_message {
+  position: absolute;
+  top: 3.8rem;
+  right: 0.6rem;
+}
+.activity_container .activity_top .top_message p {
+  font-size: 0.3rem;
+  color: #333333;
+  text-align: right;
+}
+.activity_container .activity_top .top_message p span {
+  font-size: 0.36rem;
+  color: #DF2526;
+}
+.activity_container .activity_top .find_help_btn {
+  width: 6.15rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  border: 0.02rem solid #DF2526;
+  font-size: 0.32rem;
+  color: #DF2526;
+  text-align: center;
+  line-height: 0.8rem;
+  position: absolute;
+  top: 5.5rem;
+  left: 0.55rem;
+}
+.activity_container .activity_top .progress {
+  width: 100%;
+  font-size: 0.3rem;
+  color: #333333;
+  position: absolute;
+  top: 4.8rem;
+}
+.activity_container .activity_top .progress .progress_num {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.1rem;
+  padding: 0 0.7rem;
+}
+.activity_container .activity_top .progress .el-progress-bar {
+  width: 6.13rem;
+  margin: 0;
+  padding: 0;
+}
+.activity_container .activity_top .progress .el-progress__text {
+  display: none;
+}
+.activity_container .help_list {
+  width: 100%;
+}
+.activity_container .help_list .list_title {
+  width: 2.27rem;
+  height: 0.43rem;
+  background: url(../../powerActivity/title@2x.png) no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+.activity_container .help_list .list_text {
+  margin-top: 0.45rem;
+  font-size: 0.26rem;
+  color: #333333;
+  text-align: center;
+}
+.activity_container .help_list .list_text span {
+  font-size: 0.4rem;
+  color: #DF2526;
+}
+.activity_container .help_list .list_line {
+  display: block;
+  width: 4.74rem;
+  height: 0.18rem;
+  background: url(../../powerActivity/line@2x.png) no-repeat;
+  background-size: contain;
+  margin: 0.08rem auto;
+}
+.activity_container .help_list .list_line_down {
+  display: block;
+  width: 4.74rem;
+  height: 0.18rem;
+  background: url(../../powerActivity/line_down@2x.png) no-repeat;
+  background-size: contain;
+  margin: 0.2rem auto;
+}
+.activity_container .help_list .list_top_three {
+  padding: 0 1.37rem;
+}
+.activity_container .help_list .list_top_three li {
+  float: left;
+  width: 1.4rem;
+  height: 2.18rem;
+  text-align: center;
+  color: #333333;
+  position: relative;
+}
+.activity_container .help_list .list_top_three li:first-child .user_avatar,
+.activity_container .help_list .list_top_three li:last-child .user_avatar {
+  width: 0.59rem;
+  height: 0.69rem;
+  margin-top: 0.3rem;
+}
+.activity_container .help_list .list_top_three li:first-child .user_avatar img,
+.activity_container .help_list .list_top_three li:last-child .user_avatar img {
+  position: absolute;
+}
+.activity_container .help_list .list_top_three li:first-child .user_avatar img.avatar_bg,
+.activity_container .help_list .list_top_three li:last-child .user_avatar img.avatar_bg {
+  width: 0.59rem;
+  height: 0.69rem;
+  z-index: 9;
+  top: 0.25rem;
+  left: 50%;
+  margin-left: -0.3rem;
+}
+.activity_container .help_list .list_top_three li:first-child .user_avatar img.avatar_img,
+.activity_container .help_list .list_top_three li:last-child .user_avatar img.avatar_img {
+  width: 0.54rem;
+  height: 0.54rem;
+  border-radius: 50%;
+  top: 0.37rem;
+  left: 50%;
+  margin-left: -0.27rem;
+}
+.activity_container .help_list .list_top_three li:first-child span,
+.activity_container .help_list .list_top_three li:last-child span {
+  display: block;
+}
+.activity_container .help_list .list_top_three li:first-child span.user_name,
+.activity_container .help_list .list_top_three li:last-child span.user_name {
+  font-size: 0.17rem;
+  width: 1.2rem;
+  margin-left: 0.1rem;
+}
+.activity_container .help_list .list_top_three li:first-child span.user_num,
+.activity_container .help_list .list_top_three li:last-child span.user_num {
+  font-size: 0.21rem;
+  font-weight: bold;
+  margin: 0.05rem 0;
+}
+.activity_container .help_list .list_top_three li:first-child span.user_good,
+.activity_container .help_list .list_top_three li:last-child span.user_good {
+  font-size: 0.18rem;
+  font-weight: bold;
+  vertical-align: text-bottom;
+}
+.activity_container .help_list .list_top_three li:first-child span.user_good i,
+.activity_container .help_list .list_top_three li:last-child span.user_good i {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url(../../powerActivity/good-small@2x.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) {
+  width: 1.93rem;
+  height: 2.43rem;
+  background: url(../../powerActivity/bg@2x.png) no-repeat;
+  background-size: contain;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) .user_avatar {
+  width: 0.66rem;
+  height: 0.79rem;
+  margin-top: 0.2rem;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) .user_avatar img {
+  position: absolute;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) .user_avatar img.avatar_bg {
+  width: 0.66rem;
+  height: 0.79rem;
+  z-index: 9;
+  left: 50%;
+  margin-left: -0.33rem;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) .user_avatar img.avatar_img {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  top: 0.37rem;
+  left: 50%;
+  margin-left: -0.3rem;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) span {
+  display: block;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) span.user_name {
+  font-size: 0.2rem;
+  width: 1.2rem;
+  margin-left: 0.35rem;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) span.user_num {
+  font-size: 0.24rem;
+  font-weight: bold;
+  margin: 0.05rem 0;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) span.user_good {
+  font-size: 0.24rem;
+  font-weight: bold;
+}
+.activity_container .help_list .list_top_three li:nth-child(2) span.user_good i {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(../../powerActivity/good_big@2x.png) no-repeat;
+  background-size: 0.4rem 0.4rem;
+  vertical-align: middle;
+}
+.activity_container .help_list .list_other_user {
+  padding: 0 1rem;
+  overflow: auto;
+}
+.activity_container .help_list .list_other_user li {
+  width: 100%;
+  font-size: 0;
+}
+.activity_container .help_list .list_other_user li img {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 0.15rem;
+}
+.activity_container .help_list .list_other_user li span {
+  color: #333333;
+  font-size: 0.24rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.activity_container .help_list .list_other_user li span.other_num {
+  text-align: right;
+  display: inline-block;
+  width: 0.3rem;
+}
+.activity_container .help_list .list_other_user li span.other_name {
+  display: inline-block;
+  width: 1rem;
+  font-weight: normal;
+  margin-right: 0.5rem;
+  text-align: left;
+}
+.activity_container .help_list .list_other_user li span.other_join {
+  display: inline-block;
+  width: 1rem;
+  text-align: left;
+}
+.activity_container .help_list .list_other_user li span.other_good {
+  margin-left: 0.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  text-align: left;
+}
+.activity_container .help_list .list_other_user li span.other_good i {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: url(../../powerActivity/good-small@2x.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.activity_container .activity_rule {
+  margin: 0 0.2rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.activity_container .activity_rule .title {
+  width: 1.65rem;
+  height: 0.32rem;
+  background: url(../../powerActivity/rule@2x.png) no-repeat;
+  background-size: contain;
+  margin: 0.28rem auto;
+}
+.activity_container .activity_rule .rule_text {
+  width: 4rem;
+  margin: 0 auto;
+  line-height: 0.5rem;
+  text-align: center;
+  font-size: 0.26rem;
+  margin-bottom: 0.2rem;
+}
+.activity_container .focus_us {
+  margin: 0 0.9rem;
+  height: 1.35rem;
+  margin-bottom: 0.98rem;
+}
+.activity_container .focus_us p {
+  float: left;
+  font-size: 0.3rem;
+  color: #333333;
+  line-height: 1.35rem;
+}
+.activity_container .focus_us .code {
+  display: block;
+  float: left;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: url(../../powerActivity/code@2x.png) no-repeat;
+  background-size: contain;
+  margin-left: 0.33rem;
+  margin-top: 0.1rem;
+}
+.activity_container .open-app {
+  width: 100%;
+  height: 0.98rem;
+  background-color: #f2f2f2;
+  line-height: 0.98rem;
+  font-size: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.activity_container .open-app .logo {
+  display: inline-block;
+  width: 0.81rem;
+  height: 0.81rem;
+  background: url(../../powerActivity/open_logo@2x.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  position: relative;
+}
+.activity_container .open-app span {
+  font-size: 0.3rem;
+  color: #333333;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 0.16rem;
+}
+.activity_container .open-app .open_btn {
+  width: 1.02rem;
+  height: 0.52rem;
+  border: 0.02rem solid #DE1616;
+  border-radius: 0.26rem;
+  color: #DE1616;
+  font-size: 0.3rem;
+  text-align: center;
+  margin-left: 3.5rem;
+  vertical-align: middle;
+  outline: 0;
+  background: rgba(0, 0, 0, 0);
+}
+.activity_container .login_box {
+  width: 5rem;
+  height: 3.89rem;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.1rem;
+  z-index: 11;
+}
+.activity_container .login_box .login_logo {
+  display: block;
+  margin: 0.24rem auto;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: url(../../powerActivity/login_logo@2x.png) no-repeat;
+  background-size: contain;
+}
+.activity_container .login_box input {
+  border: 0;
+  outline: 0;
+  height: 0.47rem;
+  background-color: #f2f2f2;
+  border-radius: 0.1rem;
+  font-size: 0.26rem;
+  padding-left: 0.15rem;
+}
+.activity_container .login_box .user_phone {
+  display: block;
+  width: 3.88rem;
+  margin-left: 0.49rem;
+}
+.activity_container .login_box .auth_code {
+  font-size: 0;
+  margin-top: 0.2rem;
+}
+.activity_container .login_box .auth_code input {
+  width: 2.09rem;
+  margin-right: 0.25rem;
+  margin-left: -0.2rem;
+}
+.activity_container .login_box .auth_code .get_auth_btn {
+  width: 1.49rem;
+  height: 0.47rem;
+  border: 0.02rem solid #DE1616;
+  border-radius: 0.1rem;
+  color: #E62129;
+  font-size: 0.26rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.activity_container .login_box .auth_code .get_auth_btn.active {
+  background-color: #D1D1D1;
+  border: 0;
+  color: #fff;
+}
+.activity_container .login_box .login_btn {
+  width: 4.03rem;
+  height: 0.6rem;
+  background-color: #DE1616;
+  font-size: 0.26rem;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0.24rem;
+  border: 0;
+  outline: 0;
+  border-radius: 0.3rem;
+}
+.activity_container .help_success {
+  width: 5rem;
+  height: 2.73rem;
+  border-radius: 0.1rem;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+.activity_container .help_success .success_icon {
+  display: block;
+  width: 0.72rem;
+  height: 0.72rem;
+  background: url(../../powerActivity/success@2x.png) no-repeat;
+  background-size: contain;
+  margin: 0.21rem auto;
+}
+.activity_container .help_success p {
+  text-align: center;
+  font-size: 0.26rem;
+  color: #333333;
+  margin-bottom: 0.16rem;
+}
+.activity_container .help_success p span {
+  color: #DE1616;
+}
+.activity_container .help_success .close_btn {
+  width: 4.03rem;
+  height: 0.6rem;
+  border: 0.02rem solid #DE1616;
+  border-radius: 0.3rem;
+  background: rgba(0, 0, 0, 0);
+  font-size: 0.26rem;
+  color: #DE1616;
+  text-align: center;
+}
+.activity_container .mask_layer {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.activity_container .ending {
+  width: 6.46rem;
+  height: 3.56rem;
+  background: url(../../powerActivity/end@2x.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 4.44rem;
+  left: 50%;
+  margin-left: -3.23rem;
+  z-index: 999;
+}
+.activity_container .wxShare {
+  width: 100%;
+  height: 100%;
+  background: url(../../powerActivity/wx_share@2x.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.activity_container .payMoney {
+  width: 4.4rem;
+  height: 2.73rem;
+  border-radius: 0.1rem;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  text-align: center;
+  padding: 0 0.3rem;
+}
+.activity_container .payMoney p {
+  font-size: 0.3rem;
+  color: #333333;
+  line-height: 0.5rem;
+  margin-top: 0.5rem;
+}
+.activity_container .payMoney .close_btn {
+  width: 4.03rem;
+  height: 0.6rem;
+  border: 0.02rem solid #DE1616;
+  border-radius: 0.3rem;
+  background: rgba(0, 0, 0, 0);
+  font-size: 0.26rem;
+  color: #DE1616;
+  text-align: center;
+  margin-top: 0.2rem;
+}

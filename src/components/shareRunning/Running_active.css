@@ -1,0 +1,294 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.clear_line {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+.bottom {
+  height: 5rem;
+  background: #fff;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.bottom_left {
+  height: 5rem;
+  line-height: 5rem;
+  float: left;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 15px;
+  top: 12%;
+}
+
+.bottom_paopao {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-top: 0.8rem;
+  padding-left: 25px;
+}
+
+.bottom_text {
+  float: right;
+}
+
+.bottom_running {
+  position: absolute;
+  bottom: 40px;
+  left: 85px;
+  font-size: 0.7rem;
+}
+
+.bottom_right {
+  width: 70px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #2dc9d7;
+  margin-left: 1px;
+  display: inline-block;
+  position: relative;
+  top: 33%;
+  border-radius: 3px;
+  right: 15px;
+  font-size: 0.8rem;
+}
+
+.share_info {
+  margin-top: 1rem;
+  width: 100%;
+  background: #fff;
+}
+
+.info_top {
+  width: 100%;
+  height: 4.7rem;
+}
+
+.account_info {
+  float: left;
+  margin-left: 0.7rem;
+}
+
+.account_info img {
+  border: 2px solid #fff;
+  width: 3.0rem;
+  height: 3.0rem;
+  border-radius: 50%;
+  margin-top: 0.8rem;
+  float: left;
+}
+
+.account_message {
+  float: left;
+  margin-left: 1.2rem;
+  font-size: 0.8rem;
+}
+
+.account_name {
+  margin-top: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 0.6rem;
+  float: left;
+}
+
+.account_id {
+  color: #AAAAAA;
+  font-size: 0.8rem;
+  width: 5rem;
+  height: 1.2rem;
+  margin-left: 3rem;
+  padding-top: 2.8rem;
+}
+
+.attention {
+  float: right;
+}
+
+.attention_button {
+  width: 70px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #2dc9d7;
+  margin-left: 1px;
+  display: inline-block;
+  position: relative;
+  top: 33%;
+  border-radius: 20px;
+  right: 15px;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.message {
+  width: 90%;
+  line-height: 2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.post_picture {
+  width: 100%;
+  height: 15rem;
+}
+
+.running_detail {
+  height: 3.7rem;
+}
+
+.kilometers {
+  height: 1.5rem;
+  width: 100%;
+}
+
+.routes_img {
+  width: 3rem;
+  height: 3rem;
+  float: left;
+  margin-left: 0.8rem;
+  background: #2dc9d7;
+}
+
+.little_img {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: #2dc9d7;
+  float: left;
+  margin-left: 0.5rem;
+}
+
+.account_meter {
+  float: left;
+  margin-left: 0.5rem;
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+.comment {
+  float: left;
+  color: #666666;
+  font-size: 1.0rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin-left: 0.8rem;
+}
+
+.more_comment {
+  width: 6rem;
+  height: 2rem;
+  float: left;
+  margin-top: 0.8rem;
+}
+
+.review_content {
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+.comment_area {
+  background: #ffffff;
+  height: 3.6rem;
+  width: 100%;
+  line-height: 4rem;
+}
+
+.line {
+  border-bottom: 1px solid #e0dddd;
+  width: 92%;
+  height: 3.5rem;
+  margin: auto;
+}
+
+.user_img {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-top: 0.66rem;
+  margin-left: 0.2rem;
+  float: left;
+  background: #2dc9d7;
+}
+
+.user_name {
+  width: 3.0rem;
+  height: 1.3rem;
+  float: left;
+  color: #2dc9d7;
+}
+
+.open_button {
+  height: 6rem;
+  line-height: 6rem;
+  background: #fff;
+}
+
+.button {
+  width: 90%;
+  height: 3rem;
+  margin: auto;
+  line-height: 3rem;
+  text-align: center;
+  color: #FFFFFF;
+  background: #2dc9d7;
+  display: inline-block;
+  position: relative;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+
+.dynamic {
+  width: 100%;
+  background: #fff;
+  margin-top: 1.5rem;
+  height: 20rem;
+}
+
+.dynamic_info {
+  height: 4rem;
+  width: 100%;
+  border-bottom: 1px solid
+}
+
+.user_dynamic {
+  height: 15rem;
+}
+
+.dynamic_image {
+  border: 2px solid #fff;
+  width: 3.0rem;
+  height: 3.0rem;
+  border-radius: 50%;
+  margin-top: 0.8rem;
+  float: left;
+  margin-left: 0.8rem;
+}
+
+.dynamic_id {
+  float: left;
+  margin-top: 2.7rem;
+  margin-left: -3.2rem;
+  color: #AAAAAA;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,79 @@
+.Logistics_company{
+  font-size: 15px;
+  color: #999999;
+  text-align: left;
+  margin-left: 15px;
+}
+.Logistics_top{
+  height: 60px;
+  line-height: 30px;
+  background: #ffffff;
+}
+.Logistics{
+background: #f2f2f2;
+min-height: 100%;
+}
+.Logistics_ {
+ background: #ffffff;
+ margin-top: 10px;
+ padding-bottom: 10px;
+}
+.log_detail1{
+   width: 100px;
+   margin-top: 10px;
+   font-size: 13px;
+   color: #000;
+   height: 40px;
+}
+.Logistics_detail{
+   display: flex;
+   margin-top: 5px;
+   height: 58px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   position: relative;
+}
+.Logistics_location1{
+   font-size: 15px;
+   color: #000000;
+   text-align: left;
+   margin-left: 15px;
+   width: 78%;
+}
+.Logistics_detail1{
+    display: flex;
+    margin-top: 5px;
+    height: 58px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.Logistics_location {
+      font-size: 15px;
+      color: #cccccc;
+      text-align: left;
+      margin-left: 15px;
+      width: 78%;
+}
+.log_detail{
+    width: 100px;
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+    height: 40px;
+}
+.Logistics_line{
+height: 30px;
+width: 1px;
+background: #cccccc;
+margin-left: 48px;
+position: absolute;
+bottom: 63px;
+}
+.gobackIcon {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  z-index: 10;
+  width: 30px !important;
+  height: 30px;
+}

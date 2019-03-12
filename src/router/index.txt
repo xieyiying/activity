@@ -1,0 +1,110 @@
+const Loginmalas = r => require.ensure([], () => r(require('@/components/malasong/Loginmalas/Loginmalas')), 'Loginmalas');
+const passwordlogin = r => require.ensure([], () => r(require('@/components/malasong/passwordlogin/passwordlogin')), 'passwordlogin');
+const reset = r => require.ensure([], () => r(require('@/components/malasong/reset/reset')), 'reset');
+const addinfo = r => require.ensure([], () => r(require('@/components/malasong/addinfo/addinfo')), 'addinfo');
+const Registration = r => require.ensure([], () => r(require('@/components/malasong/Registration/Registration')), 'Registration');
+const statuspay = r => require.ensure([], () => r(require('@/components/malasong/statuspay/statuspay')), 'statuspay');
+const detail = r => require.ensure([], () => r(require('@/components/malasong/detail/detail')), 'detail');
+const NewmainPage = r => require.ensure([], () => r(require('@/components/malasong/NewmainPage/NewmainPage')), 'NewmainPage');
+const comments = r => require.ensure([], () => r(require('@/components/malasong/comments/comments')), 'comments');
+const review = r => require.ensure([], () => r(require('@/components/malasong/review/review')), 'review');
+const topay = r => require.ensure([], () => r(require('@/components/malasong/topay/topay')), 'topay');
+const orderDetail = r => require.ensure([], () => r(require('@/components/malasong/orderDetail/orderDetail')), 'orderDetail');
+const orderstatus = r => require.ensure([], () => r(require('@/components/malasong/orderstatus/orderstatus')), 'orderstatus');
+const userinfo = r => require.ensure([], () => r(require('@/components/malasong/userinfo/userinfo')), 'userinfo');
+const infocontent = r => require.ensure([], () => r(require('@/components/malasong/infocontent/infocontent')), 'infocontent');
+const accountAbout = r => require.ensure([], () => r(require('@/components/malasong/accountAbout/accountAbout')), 'accountAbout');
+const finishCompletion = r => require.ensure([], () => r(require('@/components/malasong/finishCompletion/finishCompletion')), 'finishCompletion');
+const Logistics = r => require.ensure([], () => r(require('@/components/malasong/Logistics/Logistics')), 'Logistics');
+
+
+        {
+            path: '/Loginmalas',
+            name: 'Loginmalas',
+            component: Loginmalas
+        },
+        {
+            path: '/passwordlogin',
+            name: 'passwordlogin',
+            component: passwordlogin
+        },
+        {
+          path: '/reset',
+          name: 'reset',
+          component: reset
+        },
+          {
+            path: '/addinfo',
+            name: 'addinfo',
+            component: addinfo
+          },
+           {
+             path: '/Registration',
+             name: 'Registration',
+             component: Registration
+           },
+           {
+             path: '/statuspay',
+             name: 'statuspay',
+             component: statuspay
+           },
+           {
+             path: '/detail',
+             name: 'detail',
+             component: detail
+           },
+            {
+                path: '/NewmainPage',
+                name: 'NewmainPage',
+                component: NewmainPage
+            },
+            {
+                path: '/comments',
+                name: 'comments',
+                component: comments
+            },
+            {
+                path: '/review',
+                name: 'review',
+                component: review
+            },
+            {
+                path: '/topay',
+                name: 'topay',
+                component: topay
+            },
+            {
+              path: '/orderDetail',
+              name: 'orderDetail',
+              component: orderDetail
+            },
+            {
+                path: '/orderstatus',
+                name: 'orderstatus',
+                component: orderstatus
+            },
+             {
+               path: '/userinfo',
+               name: 'userinfo',
+               component: userinfo
+             },
+            {
+                path: '/infocontent',
+                name: 'infocontent',
+                component: infocontent
+            },
+            {
+                path: '/accountAbout',
+                name: 'accountAbout',
+                component: accountAbout
+            },
+            {
+                path: '/finishCompletion',
+                name: 'finishCompletion',
+                component: finishCompletion
+            },
+            {
+                path: '/Logistics',
+                name: 'Logistics',
+                component: Logistics
+            },

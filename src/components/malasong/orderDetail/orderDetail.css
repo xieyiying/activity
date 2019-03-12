@@ -1,0 +1,146 @@
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+.orderList_top{
+  margin-bottom:10px;
+}
+.orderDetail {
+  padding-top: 10px;
+  width: 100%;
+  background-color: #eeeeee;
+  min-height: 100%;
+  overflow-x: hidden
+}
+.orderDetail_top {
+  padding-top: 10px;
+}
+.order_list{
+ margin-left: 10px;
+ margin-right: 10px;
+ position: relative;
+}
+.top_container {
+  background-image: url(../total_img/rec_bg_unable.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100px;
+}
+.top_Newcontainer {
+  background-image: url(../total_img/rec_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+.img_rec {
+  width: 100%;
+}
+.top_title {
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  left: 20px;
+  right: 10px;
+  top: 10px;
+  display: flex;
+}
+
+.top_name {
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  display: flex;
+}
+
+.top_date {
+ color: #fff;
+ font-size: 13px;
+ position: relative;
+ left: 20px;
+ text-align: left;
+ top: 30px;
+}
+
+.top_status {
+ border-radius: 5px;
+ padding: 5px;
+ border: 1px solid #fff;
+ color: #fff;
+ font-size: 13px;
+ position: absolute;
+ right: 10px;
+ width: 80px;
+ height: 20px;
+ margin-right: 0;
+}
+.order_detail_in {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+   background-image: url(../total_img/rec_bg_bottom.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.user_item1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.user_name {
+  font-size:15px;
+}
+
+.user_sex {
+  font-size: 13px;
+}
+
+.order_id {
+  color: #9f9f9f;
+  font-size: 15px;
+}
+
+.order_num {
+  font-size: 13px;
+}
+
+.order_status {
+  font-size: 15px;
+  color: #ff8808;
+}
+
+.order_check {
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid #0aa5de;
+  color: #0aa5de;
+  font-size: 13px;
+}
+.gobackIcon {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  z-index: 10;
+  width: 30px !important;
+  height: 30px;
+}
+ .wait {
+   width: 32px;
+   height: 32px;
+   position: absolute;
+   left: 50%;
+   margin-left: -16px;
+   top: 50%;
+   margin-top: -50px;
+   z-index: 10;
+ }

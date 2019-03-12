@@ -1,0 +1,572 @@
+.activity_container {
+    width: 100%;
+    max-width: 750px;
+    .activity_top {
+        // width: 100%;
+        height: 675/100rem;
+        background: url('../../powerActivity/top@2x.png') no-repeat;
+        background-size: contain;
+        position: relative;
+        text-align: center;
+        .help_text {
+            font-size: 30/100rem;
+            color: #ffffff;
+            font-weight: bold;
+            position: absolute;
+            top: 240/100rem;
+            left: 259/100rem;
+        }
+        .user_info {
+            width: 300/100rem;
+            position: absolute;
+            top: 386/100rem;
+            left: 50%;
+            margin-left: -150/100rem;
+            img {
+                width: 90/100rem;
+                height: 90/100rem;
+                border-radius: 50%;
+            }
+            .user_name {
+                font-size: 30/100rem;
+                color: #333333;
+                margin-top: 16/100rem;
+            }
+        }
+        .help_button {
+            position: absolute;
+            top: 510/100rem;
+            left: 55/100rem;
+            button {
+                width: 300/100rem;
+                height: 80/100rem;
+                border: 2/100rem solid #DF2526;
+                text-align: center;
+                line-height: 80/100rem;
+                color: #DF2526;
+                font-size: 32/100rem;
+                border-radius: 40/100rem;
+                background-color: #ffffff;
+                &:first-child {
+                    margin-right: 15/100rem;
+                    &.enter_immediate {
+                        background-color: #DE1616;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .top_message {
+            position: absolute;
+            top: 380/100rem;
+            right: 0.6rem;
+            p {
+                font-size: 30/100rem;
+                color: #333333;
+                text-align: right;
+                span {
+                  font-size: 36/100rem;
+                  color: #DF2526;
+                }
+            }
+            
+        }
+        .find_help_btn {
+            width: 615/100rem;
+            height: 80/100rem;
+            border-radius: 40/100rem;
+            border: 2/100rem solid #DF2526;
+            font-size: 32/100rem;
+            color: #DF2526;
+            text-align: center;
+            line-height: 80/100rem;
+            position: absolute;
+            top: 550/100rem;
+            left: 55/100rem;
+        }
+        .progress {
+            width: 100%;
+            font-size: 30/100rem;
+            color: #333333;
+            position: absolute;
+            top: 480/100rem;
+            .progress_num {
+                display: flex;
+                justify-content:space-between;
+                margin-bottom: 10/100rem;
+                padding: 0 0.7rem;
+            }
+            .el-progress-bar {
+                width: 613/100rem;
+                margin: 0;
+                padding: 0;
+            }
+            .el-progress__text {
+                display: none;
+            }
+        }
+    }
+    // 助力排行列表
+    .help_list {
+        width: 100%;
+        .list_title {
+            width: 227/100rem;
+            height: 43/100rem;
+            background: url(../../powerActivity/title@2x.png) no-repeat;
+            background-size: contain;
+            margin: 0 auto;
+        }
+        .list_text {
+            margin-top: 45/100rem;
+            font-size: 26/100rem;
+            color: #333333;
+            text-align: center;
+            span {
+                font-size: 40/100rem;
+                color: #DF2526;
+            }
+        }
+        .list_line {
+            display: block;
+            width: 474/100rem;
+            height: 18/100rem;
+            background: url(../../powerActivity/line@2x.png) no-repeat;
+            background-size: contain;
+            margin: 8/100rem auto;
+        }
+        .list_line_down {
+            display: block;
+            width: 474/100rem;
+            height: 18/100rem;
+            background: url(../../powerActivity/line_down@2x.png) no-repeat;
+            background-size: contain;
+            margin: 20/100rem auto;
+        }
+        // 前三名用户列表
+        .list_top_three {
+            padding: 0 137/100rem;
+            li {
+                float: left;
+                width: 140/100rem;
+                height: 218/100rem;
+                text-align: center;
+                color: #333333;
+                position: relative;
+                &:first-child, &:last-child {
+                    .user_avatar {
+                        width: 0.59rem;
+                        height: 0.69rem;
+                        margin-top: 0.3rem;
+                        img {
+                            position: absolute;
+                            &.avatar_bg {
+                                width: 0.59rem;
+                                height: 0.69rem;
+                                z-index: 9;
+                                top: 0.25rem;
+                                left: 50%;
+                                margin-left: -0.3rem;
+                            }
+                            &.avatar_img {
+                                width: 0.54rem;
+                                height: 0.54rem;
+                                border-radius: 50%;
+                                top: 0.37rem;
+                                left: 50%;
+                                margin-left: -0.27rem;
+                            }
+                        }
+                    }
+                    span {
+                        display: block;
+                        &.user_name {
+                          font-size: 17/100rem;
+                          width: 120/100rem;
+                          margin-left: 0.1rem;
+                        }
+                        &.user_num {
+                          font-size: 21/100rem;
+                          font-weight: bold;
+                          margin: 5/100rem 0;
+                        }
+                        &.user_good {
+                            i {
+                                display: inline-block;
+                                width: 0.3rem;
+                                height: 0.3rem;
+                                background: url(../../powerActivity/good-small@2x.png) no-repeat;
+                                background-size: contain;
+                                vertical-align: middle;
+                            }
+                            font-size: 18/100rem;
+                            font-weight: bold;
+                            vertical-align: text-bottom;
+                        }
+                    }  
+                }
+                &:nth-child(2) {
+                    width: 193/100rem;
+                    height: 243/100rem;
+                    background: url(../../powerActivity/bg@2x.png) no-repeat;
+                    background-size: contain;
+                    .user_avatar {
+                        width: 66/100rem;
+                        height: 79/100rem;
+                        margin-top: 0.2rem;
+                        img {
+                            position: absolute;
+                            &.avatar_bg {
+                                width: 66/100rem;
+                                height: 79/100rem;
+                                z-index: 9;
+                                left: 50%;
+                                margin-left: -0.33rem;
+                            }
+                            &.avatar_img {
+                                width: 60/100rem;
+                                height: 60/100rem;
+                                border-radius: 50%;
+                                top: 0.37rem;
+                                left: 50%;
+                                margin-left: -0.3rem;
+                            }
+                        }
+                    }
+                    span {
+                      display: block;
+                      &.user_name {
+                        font-size: 20/100rem;
+                        width: 120/100rem;
+                        margin-left: 0.35rem;
+                      }
+                      &.user_num {
+                        font-size: 24/100rem;
+                        font-weight: bold;
+                        margin: 5/100rem 0;
+                      }
+                      &.user_good {
+                          font-size: 24/100rem;
+                          font-weight: bold;
+                            i {
+                                display: inline-block;
+                                width: 40/100rem;
+                                height: 40/100rem;
+                                background: url(../../powerActivity/good_big@2x.png) no-repeat;
+                                background-size: 40/100rem 40/100rem;
+                                vertical-align: middle;
+                            }
+                      }
+                    }
+                }
+            }
+        }
+        // 其他名次用户列表
+        .list_other_user {
+            padding: 0 100/100rem;
+            overflow: auto;
+            li {
+                width: 100%;
+                font-size: 0;
+                img {
+                    width: 40/100rem;
+                    height: 40/100rem;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                    margin: 0 15/100rem;
+                }
+                span {
+                    color: #333333;
+                    font-size: 24/100rem;
+                    font-weight: bold;
+                    vertical-align: middle;
+                    &.other_num {
+                        text-align: right;
+                        display: inline-block;
+                        width: 0.3rem;
+                    }
+                    &.other_name {
+                        display: inline-block;
+                        width: 100/100rem;
+                        font-weight: normal;
+                        margin-right: 50/100rem;
+                        text-align: left;
+                    }
+                    &.other_join {
+                        display: inline-block;
+                        width: 1rem;
+                        text-align: left;
+                    }
+                    &.other_good {
+                        margin-left: 50/100rem;
+                        width: 1.5rem;
+                        display: inline-block;
+                        text-align: left;
+                        i {
+                            display: inline-block;
+                            width: 30/100rem;
+                            height: 30/100rem;
+                            background: url(../../powerActivity/good-small@2x.png) no-repeat;
+                            background-size: contain;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 活动规则
+    .activity_rule {
+        // width: 100%;
+        margin: 0 20/100rem;
+        border-bottom: 1px solid #f2f2f2;
+        .title {
+            width: 165/100rem;
+            height: 32/100rem;
+            background: url(../../powerActivity/rule@2x.png) no-repeat;
+            background-size: contain;
+            margin: 28/100rem auto;
+        }
+        .rule_text {
+            width: 400/100rem;
+            margin: 0 auto;
+            line-height: 50/100rem;
+            text-align: center;
+            font-size: 26/100rem;
+            margin-bottom: 20/100rem;
+        }
+    }
+    // 关注我们
+    .focus_us {
+        margin: 0 90/100rem;
+        height: 135/100rem;
+        margin-bottom: 98/100rem;
+        p {
+            float: left;
+            font-size: 30/100rem;
+            color: #333333;
+            // margin-top: 24/100rem;
+            line-height: 135/100rem;
+        }
+        .code {
+            display: block;
+            float: left;
+            width: 110/100rem;
+            height: 110/100rem;
+            background: url(../../powerActivity/code@2x.png) no-repeat;
+            background-size: contain;
+            margin-left: 33/100rem;
+            margin-top: 10/100rem;
+        }
+    }
+    // 下载APP
+    .open-app {
+        width: 100%;
+        height: 98/100rem;
+        background-color: #f2f2f2;
+        line-height: 98/100rem;
+        font-size: 0;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        .logo {
+            display: inline-block;
+            width: 81/100rem;
+            height: 81/100rem;
+            background: url(../../powerActivity/open_logo@2x.png) no-repeat;
+            background-size: contain;
+            vertical-align: middle;
+            position: relative;
+        }
+        span {
+            font-size: 30/100rem;
+            color: #333333;
+            font-weight: bold;
+            vertical-align: middle;
+            margin-left: 0.16rem;
+        }
+        .open_btn {
+            width: 102/100rem;
+            height: 52/100rem;
+            border: 2/100rem solid #DE1616;
+            border-radius: 26/100rem;
+            color: #DE1616;
+            font-size: 30/100rem;
+            text-align: center;
+            margin-left: 350/100rem;
+            vertical-align: middle;
+            outline: 0;
+            background: rgba(0, 0, 0, 0);
+        }
+    }
+    // 登录框
+    .login_box {
+        width: 500/100rem;
+        height: 389/100rem;
+        background-color: #ffffff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 10/100rem;
+        z-index: 11;
+        .login_logo {
+            display: block;
+            margin: 24/100rem auto;
+            width: 110/100rem;
+            height: 110/100rem;
+            background: url(../../powerActivity/login_logo@2x.png) no-repeat;
+            background-size: contain;
+        }
+        input {
+            border: 0;
+            outline: 0;
+            height: 47/100rem;
+            background-color: #f2f2f2;
+            border-radius: 10/100rem;
+            font-size: 26/100rem;
+            padding-left: 15/100rem;
+        }
+        .user_phone {
+            display: block;
+            width: 388/100rem;
+            margin-left: 49/100rem;
+        }
+        .auth_code {
+            font-size: 0;
+            margin-top: 20/100rem;
+            input {
+                width: 209/100rem;
+                margin-right: 25/100rem;
+                margin-left: -0.2rem;
+            }
+            .get_auth_btn {
+                width: 149/100rem;
+                height: 47/100rem;
+                border: 2/100rem solid #DE1616;
+                border-radius: 10/100rem;
+                color: #E62129;
+                font-size: 26/100rem;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0);
+                &.active {
+                  background-color: #D1D1D1;
+                  border: 0;
+                  color: #fff;
+                }
+            }
+        }
+        .login_btn {
+            width: 403/100rem;
+            height: 60/100rem;
+            background-color: #DE1616;
+            font-size: 26/100rem;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 24/100rem;
+            border: 0;
+            outline: 0;
+            border-radius: 30/100rem;
+        }
+    }
+    // 助力成功弹框
+    .help_success {
+        width: 500/100rem;
+        height: 273/100rem;
+        border-radius: 10/100rem;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 11;
+        .success_icon {
+            display: block;
+            width: 72/100rem;
+            height: 72/100rem;
+            background: url(../../powerActivity/success@2x.png) no-repeat;
+            background-size: contain;
+            margin: 21/100rem auto;
+        }
+        p {
+            text-align: center;
+            font-size: 26/100rem;
+            color: #333333;
+            margin-bottom: 16/100rem;
+            span {
+                color: #DE1616;
+            }
+        }
+        .close_btn {
+            width: 403/100rem;
+            height: 60/100rem;
+            border: 2/100rem solid #DE1616;
+            border-radius: 30/100rem;
+            background: rgba(0, 0, 0, 0);
+            font-size: 26/100rem;
+            color: #DE1616;
+            text-align: center;
+        }
+    }
+    // 遮罩层
+    .mask_layer {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0; 
+        left: 0;
+        z-index: 10;
+    }
+    // 活动已结束标签
+    .ending {
+        width: 646/100rem;
+        height: 356/100rem;
+        background: url(../../powerActivity/end@2x.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 444/100rem;
+        left: 50%;
+        margin-left: -323/100rem;
+        z-index: 999;
+    }
+    // 微信分享提示
+    .wxShare {
+        width: 100%;
+        height: 100%;
+        // background: rgba(0, 0, 0, 0.5);
+        background: url(../../powerActivity/wx_share@2x.png) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    // 提示用户支付
+    .payMoney {
+        width: 440/100rem;
+        height: 273/100rem;
+        border-radius: 10/100rem;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 11;
+        text-align: center;
+        padding: 0 30/100rem;
+        p {
+            font-size: 30/100rem;
+            color: #333333;
+            line-height: 50/100rem;
+            margin-top: 50/100rem;
+        }
+        .close_btn {
+            width: 403/100rem;
+            height: 60/100rem;
+            border: 2/100rem solid #DE1616;
+            border-radius: 30/100rem;
+            background: rgba(0, 0, 0, 0);
+            font-size: 26/100rem;
+            color: #DE1616;
+            text-align: center;
+            margin-top: 20/100rem;
+        }
+    }
+}

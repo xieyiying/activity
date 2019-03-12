@@ -1,0 +1,67 @@
+.upload {
+  width: 100%;
+  height: 100%;
+  background: url(../../powerActivity/uploadbg@2x.png) no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+.upload .upload_tips_text {
+  font-size: 0.3rem;
+  color: #ffffff;
+  position: absolute;
+  top: 2.4rem;
+  left: 2.59rem;
+}
+.upload .img_list {
+  width: 5.5rem;
+  height: 5.12rem;
+  margin-left: 1.17rem;
+  margin-top: 4.76rem;
+  overflow: hidden;
+}
+.upload .img_list li {
+  float: left;
+  margin-right: 0.18rem;
+  margin-bottom: 0.16rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  background-repeat: no-repeat;
+  background-size: 1.6rem 1.6rem;
+  border-radius: 0.2rem;
+}
+.upload .img_list li.upload_img {
+  background-image: url(../../powerActivity/upload@2x.png);
+  border-radius: 0;
+}
+.upload .img_list li.upload_img input {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  top: 4.75rem;
+  left: 1.15rem;
+  opacity: 0;
+}
+.upload .tips {
+  font-size: 0.26rem;
+  color: #666666;
+  text-align: left;
+  padding-right: 1rem;
+  margin: 0.44rem 0 0 1.17rem;
+}
+.upload .commit_img {
+  width: 5.17rem;
+  height: 0.7rem;
+  background-color: #f2f2f2;
+  border-radius: 0.35rem;
+  font-size: 0.3rem;
+  color: #666666;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  bottom: 1.84rem;
+  left: 1.15rem;
+}
+.upload .commit_img.active {
+  background-color: #E62129;
+  color: #ffffff;
+}

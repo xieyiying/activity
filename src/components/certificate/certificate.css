@@ -1,0 +1,263 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.certificate{
+    width: 100%;
+    height: 100%;
+    max-width: 680px!important;
+}
+.certificate_bj{
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   position: absolute; 
+   top: 0;
+   left: 0;   
+}
+
+.certificate_info{
+    width: 90%;
+    height: 60%;
+    background: #FFFFFF;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    box-shadow: 0 0 10px #d0dce8;
+    z-index: 5;
+}
+.completion_Certificate_top{
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+.completion_Certificate_image{
+    width: 1.4rem;
+    vertical-align: text-bottom;
+}
+.certificate_text{
+    font-size: 1.3rem;
+    margin: 0.7rem auto;
+    font-weight: bold;
+}
+.complete_match{
+    width: 90%;
+    height: 23%;
+    margin-left: 5%;
+    border-bottom: 1px solid #f9f9f9;
+}
+.certificate_successful{
+    background-image: url(./certificate/successful.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 20%;
+    height: 13%;
+    position: absolute;
+    left: -4%;
+    top: 1.5%;
+}
+.paopao{
+    width: 80%;
+    height: 35px;
+    line-height: 35px;
+    background-image: url(./certificate/text_bj.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.65rem;
+    margin-left: 10%;
+    margin-top: 0;
+    font-weight: 700;
+}
+.base_info{
+    width: 90%;
+    height: 16%;
+    margin-left: 5%;
+    position: relative;
+}
+.info_left{
+   width: 40%;
+   position: absolute;
+   left: 9%;
+   height: 66%;
+   top: 22%;
+}
+.info_right{
+   width: 40%;
+   position: absolute;
+   height: 66%;
+   top: 22%;
+   left: 69%;
+}
+.match_info_left{
+     width: 40%;
+     position: absolute;
+     bottom: 10%;
+}
+.match_info_right {
+  width: 40%;
+  padding-top: 0.5rem;
+  position: absolute;
+  bottom: 10%;
+  left: 57%;
+}
+.info_image{
+    width: 1.25rem;
+    height: 1.25rem;
+    vertical-align: text-bottom;
+    float: left;
+}
+.certificate_name {
+   margin: 0 auto;
+   font-size: 0.9rem;
+   height: 1rem;
+   line-height: 1rem;
+   padding-top: 0.2rem;
+   text-align: left;
+   padding-left: 0.3rem;
+}
+.firstname{
+    margin: 0 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-left: -3.5rem;
+}
+.signture{
+   width: 35%;
+   height: 31%;
+   margin-top: 0.1rem;
+}
+.paopao_logo{
+    background-image: url(./certificate/60948800739514279.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 10.5%;
+    margin: 0 auto;
+}
+.certificate_bottom {
+       width: 90%;
+       margin: auto;
+       height: 9%;
+       background: #fff;
+       position: fixed;
+       bottom: 0.9%;
+       left: 5%;
+       z-index: 5;
+}
+
+.certificate_bottom_left {
+
+    height: 5rem;
+    line-height: 5rem;
+    float: left;
+}
+
+.certificate_logo {
+
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 8%;
+}
+
+.certificate_bottom_paopao {
+
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-top: 0.3rem;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.certificate_bottom_text {
+
+    float: right;
+}
+
+.certificate_bottom_running {
+
+   position: absolute;
+   left: 50px;
+   font-size: 0.6rem;
+   margin: 0;
+   top: 2px;
+}
+
+.certificate_bottom_right {
+
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2dc9d7;
+    margin-left: 1px;
+    display: inline-block;
+    position: relative;
+    top: 27%;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+@media screen and (min-height: 700px) {
+    .certificate_bj {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 80%;
+        z-index: 2;
+        position: absolute;
+    }
+    .certificate_info {
+        width: 90%;
+        height: 62%;
+        background: #FFFFFF;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        position: absolute;
+        bottom: 13%;
+        left: 5%;
+        -webkit-box-shadow: 0 0 10px #e4e4e4;
+        box-shadow: 0 0 10px #d0dce8;
+        z-index: 5;
+    }
+    .certificate_successful {
+      background-image: url(./certificate/successful.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 22%;
+      height: 11%;
+      position: absolute;
+      left: -4%;
+      top: 1.5%;
+    }
+    .paopao_logo {
+        background-image: url(./certificate/60948800739514279.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 50%;
+        height: 7.7%;
+        margin: 0 auto;
+    }
+
+    .certificate_bottom {
+        width: 90%;
+        margin: auto;
+        height: 9.5%;
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 5%;
+        z-index: 5;
+    }
+    .signture {
+        width: 35%;
+        height: 30%;
+        margin-top: 0.3rem;
+    }
+
+}
